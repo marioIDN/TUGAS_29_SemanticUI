@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <title>Tugas 29</title>
+    <style media="screen">
+      body {
+        background-color: #e5dfdf;
+      }
+      .kotak {
+        width: 700px;
+        height: 500px;
+        margin: 0 auto;
+        padding-top: 100px;
+      }
+      .header {
+        margin: 0 auto;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .gambar {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+      }
+      .judul {
+        font-size: 22px;
+        display: flex;
+        color: teal;
+        align-self: center;
+        font-family: sans-serif;
+      }
+      .formulir {
+        border-radius: 5px;
+        width: 400px;
+        height: 380px;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <div class=" header">
+        <img class="gambar" src="niomic.png"><span class="judul">Daftar Akun NIOMIC</span>
+      </div>
+      <div class="formulir">
+        <div class="fluid ui left icon input">
+          <input type="text" placeholder="Nama Depan">
+          <i class="user icon"></i>
+        </div><br>
+        <div class="fluid ui left icon input">
+          <input type="text" placeholder="Nama Belakang">
+          <i class="user icon"></i>
+        </div><br>
+        <div class="fluid ui left icon input">
+          <input type="text" placeholder="No Telp/HP">
+          <i class="user icon"></i>
+        </div><br>
+        <div class="fluid ui left icon input">
+          <input type="email" placeholder="Alamat Email">
+          <i class="user icon"></i>
+        </div><br>
+        <div class="fluid ui left icon input">
+          <input type="password" placeholder="Password">
+          <i class="user icon"></i>
+        </div><br><br>
+        <button class="fluid ui teal button">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
